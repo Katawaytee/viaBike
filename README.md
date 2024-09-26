@@ -32,7 +32,7 @@ sudo apt install python3-pika
 
 ### ใน Raspberry Pi
 - นำ file rabbit.py และ send_image.sh มาไว้ใน folder
-- แก้ไข rabbitmq_host ใน file rabbit.py ให้เป็นของ **คอม** ที่จะรับรูปภาพ
+- แก้ไข rabbitmq_host ใน file rabbit.py ให้เป็น **ip address** ของ **คอม** ที่จะรับรูปภาพ
 - double click send_image.sh แล้วเลือก Execute in terminal
 
 ### ในคอม
